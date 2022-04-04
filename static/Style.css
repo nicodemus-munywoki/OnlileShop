@@ -1,0 +1,465 @@
+* {
+    box-sizing: border-box;
+    word-spacing: text-indent;
+}
+
+body {
+    background: #aaf;
+    width: 100%;
+    margin-left: -2px;
+    margin-top: -3px;
+}
+
+.container {
+    background: linear-gradient(#ccccff, #ccaaff, #ccccff);
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 40px;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 10pc;
+    outline-width: 3px;
+    outline: double;
+    outline-color: chartreuse;
+    position: relative;
+}
+
+.Uicon {
+    position: absolute;
+    top: -2pc;
+    border-radius: 100%;
+    background: #ccccff;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    outline: double;
+    outline-color: chartreuse;
+}
+
+.container>div {
+    font-size: 17px;
+    font-family: new times roman;
+}
+
+.container form input {
+    padding: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #aaa;
+    border-bottom-style: doted;
+    background: transparent;
+    margin-bottom: 5px;
+}
+
+.btn {
+    padding: 0;
+    background: #11ff11;
+    color: white;
+    width: 150px;
+    border-radius: 20px;
+    outline: double;
+    outline-color: #12dfff;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.btn input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.button>button {
+    padding: 8px;
+    background: #11ff11;
+    color: white;
+    width: 150px;
+    border-radius: 20px;
+    outline: none;
+}
+
+nav {
+    background: linear-gradient(#fff, #000);
+    width: auto;
+    overflow: auto;
+    margin-top: 0px;
+    margin-left: 0pc;
+    margin-right: -20.4px;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    float: left;
+    line-height: -80px;
+    text-align: center;
+}
+
+nav a {
+    width: 220px;
+    display: block;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(#999, #fff, #999);
+    font-size: 15px;
+    color: #000000;
+    padding: 20px;
+    margin-right: 1px;
+    padding: 25px;
+}
+
+nav a:hover {
+    background: linear-gradient(aqua, #12dfff, #999);
+}
+
+.label {
+    text-align: center;
+}
+
+.label>p {
+    text-decoration: bold;
+    color: blue;
+    font-family: Goudy Stout;
+    font-size: 20px;
+    margin-bottom: -6px
+}
+
+.label>label {
+    margin-top: -5px;
+    font-family: Edwardian Script ITC;
+    font-size: 30px;
+    text-decoration: italic;
+    color: red;
+}
+
+.out {
+    text-decoration: none;
+    font-family: consolas;
+    color: green;
+    text-align: center;
+    float: left;
+}
+
+.head {
+    margin-top: -5px;
+    font-family: times new roman;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #000000;
+}
+
+.all {
+    max-width: 100%;
+    overflow: auto;
+    background: transparent;
+    justify-content: center;
+}
+
+.all div {
+    justify-content: center;
+}
+
+.images {
+    position: relative;
+    width: 216.8px;
+    height: 450px;
+    background: white;
+    border-radius: 10px;
+    margin-right: 0pc;
+    margin-top: 0.3pc;
+    float: left;
+    justify-content: center;
+    padding: 0.2pc;
+    text-align: left;
+    border: 0px transparent #ccc;
+}
+
+.images div {
+    align-items: center;
+}
+
+.images img {
+    display: block;
+    height: 200px;
+    width: 200px;
+    padding: -0.2px;
+    margin: auto;
+    right: 100px;
+}
+
+.it {
+    position: absolute;
+    top: -0.2px;
+    left: 1.01pc;
+    width: 50px;
+    height: 65px;
+    border-left: 25px solid greenyellow;
+    border-right: 25px solid greenyellow;
+    border-bottom: 20px solid transparent;
+}
+
+.it p {
+    position: absolute;
+    top: -0.3pc;
+    left: -1.55pc;
+    font-family: algerian;
+    font-size: 12px;
+    color: red;
+    background: blanchedalmond;
+    border-radius: 40px;
+    width: 50px;
+}
+
+.context {
+    text-align: center;
+    font-size: 12px;
+    width: auto;
+}
+
+.context>label>input {
+    width: 60px;
+    outline: none;
+    border-bottom-width: 1.5px;
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+    border-left-width: 1.5px;
+    border-color: black;
+}
+
+.context>label {
+    color: Brown;
+}
+
+.add-cart>button {
+    border-radius: 20px;
+    color: white;
+    background: #11ff11;
+    text-align: center;
+}
+
+.add-cart button a {
+    text-align: center;
+}
+
+.images span {
+    color: gold;
+    font-size: 20px;
+}
+
+.images button {
+    height: 30px;
+    border-radius: 20px;
+    background: lightgrey;
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    padding: 10px;
+    bottom: 10px;
+}
+
+.images button a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.add-cart {
+    text-align: center;
+}
+
+.add-cart>a:hover {
+    background: red;
+}
+
+.cart a {
+    background-color: royalblue;
+    color: #000;
+    text-decoration: none;
+}
+
+.remove>button {
+    border-radius: 20px;
+    color: white;
+    background: #11ff11;
+}
+
+.remove {
+    text-align: center;
+}
+
+.remove>a:hover {
+    background: red;
+}
+
+.purchase>button {
+    border-radius: 20px;
+    color: white;
+    background: #11ff11;
+}
+
+.purchase {
+    text-align: center;
+}
+
+.purchase>a:hover {
+    background: red;
+}
+
+.products-container {
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.images {
+    margin-right: 4px;
+    margin-left: 4px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.products-container {
+    background: white;
+    max-width: 90%;
+}
+
+.products-container div {
+    max-width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.product-header {
+    text-align: center;
+    width: 1000px;
+}
+
+.product-header div {
+    display: flex;
+    float: left;
+    width: 200px;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    border-bottom: 4px solid lightgrey;
+}
+
+.product-title {
+    width: 65%;
+}
+
+.price {
+    width: 200px;
+    border-bottom: 4px solid lightgrey;
+}
+
+.Quantity {
+    width: 200px;
+    border-bottom: 4px solid lightgrey;
+}
+
+.total {
+    width: 200px;
+    border-bottom: 4px solid lightgrey;
+}
+
+.product {
+    width: 200px;
+}
+
+.product img {
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.products div {
+    display: flex;
+    width: 1000px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.basketTtotalContainer div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+    border-bottom-width: 250px;
+}
+
+.basketTtotalTitle {
+    width: 250px;
+}
+
+.basketTtotal {
+    width: 250px;
+}
+
+.nike {
+    background: white;
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+.contain {
+    margin: 3px;
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    grid-template-rows: minmax(100px, auto);
+}
+
+.contain>div {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 3/3;
+    grid-row: 1;
+}
+
+.context>span {
+    color: gold;
+    font-size: 20px;
+}
+
+.cart {
+    margin: auto;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: consolas;
+    color: gold;
+    float: left;
+    text-align: center;
+}
